@@ -13,7 +13,7 @@ function insert(array, element, position) {
 		return array
 	}
 	// step-1 将老数组复制到新数组并统一往后挪一位，为新元素腾出空间
-	let newArray = new Array()
+	let newArray = new Array(array.length + 1)
 	for (let i = 0; i < array.length; i++) {
 		if (i < position) {
 			newArray[i] = array[i]
