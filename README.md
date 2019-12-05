@@ -1,2 +1,2 @@
-# data-structure-review
+# data-structure-algorithm-review
 JavaScript version
